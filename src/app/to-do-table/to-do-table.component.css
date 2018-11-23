@@ -1,0 +1,19 @@
+.full-width-table {
+  width: 100%;
+}
+
+.edit-button{
+  margin:20px;
+}
+
+.table-container {
+  display: inline-block;
+}
+.table-container-field{
+  margin-left: 30px;
+}
+
+.table-container-button{
+  margin-left:150px; 
+}
+

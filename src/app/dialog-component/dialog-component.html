@@ -1,0 +1,7 @@
+<div>
+    <h4 md-dialog-title>{{data.errorMsg}}</h4>
+    <hr>
+        <button mat-button color="accent" (click)="onCloseConfirm()" [hidden]="data.isAlert">CONFIRM</button>&nbsp;
+        <button mat-button color="warn" (click)="onCloseCancel()">CANCEL</button>
+   
+</div>
