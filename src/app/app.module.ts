@@ -6,7 +6,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
-// components
 
 import { HomeComponent } from './home/home.component';
 import { ToDoTableComponent } from './to-do-table/to-do-table.component';

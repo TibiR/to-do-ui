@@ -15,7 +15,6 @@ export class ToDoService {
         return new Observable((observable) => {
             this.base_url = this.getRoute() + 'find-all'
             this.http.request('GET', this.base_url).subscribe(result => {
-                console.log(result);
                 observable.next(result);
                 observable.complete();
             })

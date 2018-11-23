@@ -4,7 +4,6 @@ import { MatPaginator, MatSort } from '@angular/material';
 import { MatDatepickerInputEvent } from '@angular/material/datepicker';
 import { ToDoTableDataSource } from './to-do-table-datasource';
 import { MatDialog } from "@angular/material";
-// components
 import { ToDoService } from '../service-provider/data.service';
 import { ToDoItem } from '../models/toDoItem';
 import { DialogComponent } from '../dialog-component/dialog-component';
@@ -48,7 +47,6 @@ export class ToDoTableComponent implements OnInit {
       time: ['', Validators.required],
       done: [false],
     });
-    console.log(this.dataSource);
   }
 
   get f() { return this.registerForm.controls; }
